@@ -123,8 +123,11 @@ footer a i:hover {
   }
 
   header {
-    margin-left: 0;
-    /* margin: 40px 0; */
+    margin-left: 10px;
+  }
+
+  header img {
+    width: 10rem;
   }
 
   main {
@@ -139,9 +142,25 @@ footer a i:hover {
   .text {
     text-align: center;
     padding-left: 0;
+    margin: 5px;
+  }
+
+  .text h1 {
+    font-size: 1.5rem;
   }
 
   footer {
     align-self: center;
+  }
+
+  footer i {
+    font-size: 1rem;
+    padding: 5px;
+    margin: 5px;
+    border-width: 1.5px;
+  }
+
+  .fa-facebook-f {
+    padding: 5px 7.5px;
   }
 }

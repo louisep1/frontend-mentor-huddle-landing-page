@@ -102,7 +102,7 @@ footer i {
   padding: 10px 13px;
 }
 
-footer i:hover {
+footer a i:hover {
   cursor: pointer;
   color: var(--soft-magenta);
   border-color: var(--soft-magenta);
@@ -114,9 +114,34 @@ footer i:hover {
     background: var(--violet)
       url(./huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg)
       no-repeat center center/cover;
+    width: 100%;
   }
 
-  /* main {
+  .container {
+    height: auto;
+    gap: 2rem;
+  }
+
+  header {
+    margin-left: 0;
+    /* margin: 40px 0; */
+  }
+
+  main {
     grid-template-columns: 1fr;
-  } */
+  }
+
+  main img {
+    margin: auto;
+    max-width: 50rem;
+  }
+
+  .text {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  footer {
+    align-self: center;
+  }
 }
